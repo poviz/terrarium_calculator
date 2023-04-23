@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page</title>
+  <link rel="stylesheet" type="text/css" href="static/styles.css">
+  <script src="static/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<form id="terrarium-form">
+		<div class="form-wrapper">
+		  <div class="table-wrapper">
+			<table>
+			  <thead>
+				<tr>
+				  <th>Dalis</th>
+				  <th>Plotis</th>
+				  <th>Ilgis</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <td>Roof</td>
+				  <td><input type="number" name="roof-length" placeholder="mm" inputmode="numeric" required></td>
+				  <td><input type="number" name="roof-width" placeholder="mm" inputmode="numeric" required></td>
+				</tr>
+				<tr>
+					<td>Front</td>
+					<td><input type="number" name="front-length" placeholder="mm" inputmode="numeric" required></td>
+					<td><input type="number" name="front-width" placeholder="mm" inputmode="numeric" required></td>
+				  </tr>
+				<tr>
+				  <td>Sides</td>
+				  <td><input type="number" name="sides-length" placeholder="mm" inputmode="numeric" required></td>
+				  <td><input type="number" name="sides-width" placeholder="mm" inputmode="numeric" required></td>
+				</tr>
+				<tr>
+				  <td>Back</td>
+				  <td><input type="number" name="back-length" placeholder="mm" inputmode="numeric" required></td>
+				  <td><input type="number" name="back-width" placeholder="mm" inputmode="numeric" required></td>
+				</tr>
+				<tr>
+					<td>Bottom</td>
+					<td><input type="number" name="bottom-length" placeholder="mm" inputmode="numeric" required></td>
+					<td><input type="number" name="bottom-width" placeholder="mm" inputmode="numeric" required></td>
+				  </tr>
+				<tr>
+				  <td colspan="3"><button type="submit">Calculate</button></td>
+				</tr>
+			  </tbody>
+			</table>
+		  </div>
+		</div>
+	  </form>
+	  
+	  <H3>Results (mm)</h3>
+	   <div class="form-wrapper">
+	   <div class="table-wrapper">
+	   <table id='result-table-mm'>
+			<thead>
+			  <tr>
+				<th>Dalis</th>
+				<th>Plotis</th>
+				<th>Ilgis</th>
+			  </tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Roof</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Front</td>
+				<td></td>
+				<td></td>
+			  </tr>
+				<tr>
+				<td>Left Side</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Right Side</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Back</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Bottom</td>
+				<td></td>
+				<td></td>
+			</tr>
+			</tbody>
+		  </table>
+	  </div>
+	  </div>
+	  
+	  <H3>Results (cm)</h3>
+	   <div class="form-wrapper">
+	   <div class="table-wrapper">
+	   <table id='result-table-cm'>
+			<thead>
+			  <tr>
+				<th>Dalis</th>
+				<th>Plotis</th>
+				<th>Ilgis</th>
+			  </tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Roof</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Front</td>
+				<td></td>
+				<td></td>
+			  </tr>
+				<tr>
+				<td>Left Side</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Right Side</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Back</td>
+				<td></td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<td>Bottom</td>
+				<td></td>
+				<td></td>
+			</tr>
+			</tbody>
+		  </table>
+	  </div>
+	  </div>
+</body>
+</html>
